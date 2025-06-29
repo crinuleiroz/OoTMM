@@ -359,7 +359,7 @@ class MusicInjector {
         bankCustom = { meta: bankmeta, data: bank };
         games.push('mm');
       } else {
-        bankIdOot = Number(meta[1]);
+        bankIdOot = parseInt(meta[1], 16);
         if (bankIdOot >= 2) {
           bankIdMm = bankIdOot + 0x30;
           games.push('mm');
