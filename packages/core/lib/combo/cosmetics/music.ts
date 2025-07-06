@@ -506,7 +506,12 @@ class MusicInjector {
     let customBankId: number | null = null;
 
     if (music.bankCustom) {
-      /* Ensure the bankmeta always has the correct cache type */
+      /*
+       * Ensure custom music bankmeta has the correct cache load type.
+       * ・ Permanent: Used for sound effects
+       * ・ Persistent: Used for fanfares and certain character themes
+       * ・ Temporary: Used for BGM and small enemy music
+       */
       music.bankCustom.meta[1] = entry.cacheType;
 
       customBankId = this.addCustomBank(music.bankCustom.meta, music.bankCustom.data);
