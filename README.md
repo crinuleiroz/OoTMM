@@ -108,7 +108,7 @@ If you wish to generate seeds locally, see <a href="#local-setup">Local Setup</a
 
 ### ROM File Requirements
 
-OoTMM requires clean, unmodified, an compressed ROM files for *Ocarina of Time* and *Majora's Mask*. Using unsupported ROMs will prevent the randomizer from generating a randomized ROM.
+OoTMM requires clean, unmodified, and compressed ROM files for *Ocarina of Time* and *Majora's Mask*. Using unsupported ROMs will prevent the randomizer from generating a randomized ROM.
 
 The tables below lists compatible ROM files, along with their compression status, byte order, version, and MD5 checksums for verification.
 
