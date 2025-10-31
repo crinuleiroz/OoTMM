@@ -249,7 +249,7 @@ The tables below lists compatible ROM files, along with their compression status
 
 ### ROM File Byte Order
 
-Majora's Mask Randomizer requires ROM files to be in big endian byte order. Files in little endian or byteswapped formats will not work.
+OoTMM requires ROM files to be in big endian byte order. Files in little endian or byteswapped formats will not work.
 
 You can often identify a ROM file's byte order by its file extension:
 
